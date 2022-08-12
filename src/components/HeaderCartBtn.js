@@ -8,7 +8,7 @@ import Badge from '/home/syogeki/udemy/food-ordering-app/src/styled-components/B
 
 const HeaderCartBtn = (props) => {
   return (
-    <CartBtn>
+    <CartBtn onClick={props.onClick}>
        <Icon>
         <CartIcon />
        </Icon>

@@ -10,7 +10,7 @@ export const Header = (props) => {
     <StyledHeader>
     <h1>Food Ordering App</h1>
     {/* <button>Cart</button> */}
-    <HeaderCartBtn />
+    <HeaderCartBtn  onClick={props.onShowCart}/>
     </StyledHeader>
     <HeroImg>
         <img src={banner} alt='hero banner of buffet'/>
